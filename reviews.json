@@ -1,0 +1,24 @@
+{
+  "reviews": [
+    {
+      "id": "2800",
+      "text": "It was a very good place😍😍👌👌",
+      "rating": 8
+    },
+    {
+      "id": "2a17",
+      "text": "It was okay 👍 ",
+      "rating": 5
+    },
+    {
+      "id": "0fc4",
+      "text": "This is a demo",
+      "rating": 8
+    },
+    {
+      "id": "0a8e",
+      "text": "It was a very good place 😁😁😁",
+      "rating": 8
+    }
+  ]
+}

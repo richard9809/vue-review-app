@@ -1,0 +1,24 @@
+{
+  "name": "vue-review-app",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "json-server --watch reviews.json --port 5001",
+    "serve": "concurrently \"npm start\" \"npm run dev\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "json-server": "^1.0.0-alpha.23",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.3",
+    "vite": "^5.0.11"
+  }
+}
