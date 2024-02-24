@@ -1,5 +1,8 @@
 <script setup>
 import Card from "./shared/Card.vue";
+import { useReviewsStore } from "@/stores/reviews";
+
+const store = useReviewsStore();
 
 defineProps({
   item: {
@@ -11,9 +14,9 @@ defineProps({
 <template>
   <Card>
     <button class="close">
-      <i class="fas fa-times"></i>
+      <i class="fas fa-times" @click="store.deleteReview(item)"></i>
     </button>
-    <button class="edit">
+    <button class="edit" @click="store.editReview(item)">
       <i class="fas fa-edit"></i>
     </button>
     <div class="num-display">
